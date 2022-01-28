@@ -1,0 +1,17 @@
+.modelMian{
+    background-color:  #16181D;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+    z-index: 1000 !important;
+    border-top: none;
+
+}
+.modelMianHeadr{
+    background-color:  #16181D;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    /* z-index: 1000 !important;
+    border: none solid #16181D !important;
+border-color: #16181D  !important; */
+/* text-decoration: none !important; */
+border-bottom: solid 0px #16181D;
+}

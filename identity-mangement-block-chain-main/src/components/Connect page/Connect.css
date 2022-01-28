@@ -1,0 +1,119 @@
+.mainConnect{
+margin-top: 100px;
+opacity: 0.5;
+}
+.mainMintdiv{
+    width: 50%;
+    height: 70vh;
+    background-color: #000;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.Firstdivheading{
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 23px;
+    text-align: center;
+
+}
+.ConnectDiv{
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.ConnectdivP{
+    color: #ffa05f;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 24px;
+    text-align: center;
+    /* margin-top: 2rem; */
+}
+.ConnectdivPP{
+
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.Connectbtn{
+    border-radius: 5px;
+    background-color: #ffa05f;
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 5px 0 5px ;
+   
+
+}
+.btnconnecthere{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.afterconnecttext{
+
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.Salepricetext{
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.smbtnplus{
+    border-radius: 500px;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+    .mainMintdiv{
+        width: 100%;
+        height: auto;
+        background-color: #000;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:480px) {
+.innerMintdiv{
+    padding: 0 20px 0 20px;
+}
+
+.ConnectDiv{
+    color: #ffffff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.mainMintdiv{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+    
+}

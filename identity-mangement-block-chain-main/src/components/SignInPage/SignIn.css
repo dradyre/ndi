@@ -1,0 +1,23 @@
+.signInContainer{
+
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.imageContainer img{
+    /* transform: rotate(-90deg); */
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+ 
+}
+.formInner{
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    /* background: rgba(7, 15, 20, 0.9); */
+    
+}

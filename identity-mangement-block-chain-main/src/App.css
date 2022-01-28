@@ -1,0 +1,24 @@
+.App {
+  
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.App img{
+
+}
+body{
+  background-color:  #16181D;
+  background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+  background-repeat: repeat;
+}
+

@@ -1,0 +1,96 @@
+.displayTable{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.cardContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.displayHeading{
+  text-align: center;
+  color: yellow;
+}
+.displayButton{
+  width: 500px;
+margin: 0 auto;
+padding-bottom: 20px;
+}
+.displayButton button{
+  width: 100%;
+}
+.card {
+    height: 250px;
+    width: 250px;
+    background: #1c1c1c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), inset -5px -5px 5px rgba(0, 0, 0, 0.5);
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .card:hover #header {
+    background: #1bbe9e;
+    border-color: #1bbe9e;
+    text-shadow: 0 0 2px #00ffcb;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.7s;
+  }
+  .card:hover #price {
+    color: #00ffcb;
+    transition: all 0.7s;
+    text-shadow: 0 0 5px #1bbe9e;
+  }
+  .card:hover p {
+    color: #1bbe9e;
+    transition: all 0.7s;
+  }
+  #header {
+    width: 100%;
+    background: yellow;
+    border: 2px solid yellow;
+    border-bottom: none;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    box-shadow: inset -5px 3.5px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /**** Price ||| plans cards ****/
+  #price {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    font-weight: 700;
+    color: #ccc;
+  }
+  
+  /****Informations ||| plans cards ****/
+  .card p {
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: -1px;
+  }
+  
+  .card ul {
+    list-style: none;
+    font-size: 2.5px;
+    padding-top: 7px;
+    color: gray;
+  }
+  
+  .card ul li {
+    margin: 0 15px 7px -25px;
+    background: gray;
+    border-radius: 10px;
+  }
